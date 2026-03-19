@@ -1,0 +1,16 @@
+{
+  "buildCommand": "node scripts/parse-corps.mjs && next build",
+  "framework": "nextjs",
+  "regions": ["icn1"],
+  "functions": {
+    "app/api/analysis/explain/route.ts": {
+      "maxDuration": 30
+    },
+    "app/api/finance/single-account/route.ts": {
+      "maxDuration": 15
+    },
+    "app/api/companies/search/route.ts": {
+      "maxDuration": 10
+    }
+  }
+}
