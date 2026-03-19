@@ -40,5 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# generated corp data
-/data/corps.json
+# generated corp data (Vercel 빌드를 위해 포함)
+# /data/corps.json

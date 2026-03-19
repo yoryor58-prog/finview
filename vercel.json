@@ -1,5 +1,5 @@
 {
-  "buildCommand": "node scripts/parse-corps.mjs && next build",
+  "buildCommand": "next build",
   "framework": "nextjs",
   "regions": ["icn1"],
   "functions": {
